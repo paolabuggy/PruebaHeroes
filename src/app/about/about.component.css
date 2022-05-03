@@ -1,0 +1,11 @@
+.fondo{
+    background-image: url("../../assets/img/aboutwp.jpg");
+    height: 300px;
+    width: 500px;
+    background-size:cover;
+    margin-left: 25%;
+}
+
+p{
+    text-align: justify;
+}

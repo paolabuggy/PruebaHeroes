@@ -1,0 +1,67 @@
+<div class="jumbotron">
+    
+
+    <!-- Modal -->
+    
+  
+    
+  </div>
+  <h1 class="display-4">
+    Join us now!
+    <br>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Register
+    </button>
+  </h1>
+  
+  
+
+    <!-- Button trigger modal -->
+    
+
+  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nuevo Usuario</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4>Registrar Nuevo Usuario</h4>
+          <br>
+          <div class="formh5">
+            <h5>Nombre</h5>
+            <input id="nombref" type="text">
+          </div>
+          <div class="formh5">
+            <h5>Sexo</h5>
+            
+
+            <select id="sexof">
+              <option value="Hombre">Hombre</option>
+              <option value="Mujer">Mujer</option>
+            </select>
+          </div>
+          <div class="formh5">
+            <h5>Email</h5>
+            <input id="emailf" type="text">
+          </div>
+          <div class="formh5">
+            <h5>Fecha de Nacimiento </h5>
+            
+            <input type="date" id="fechaf" 
+              value="2022-01-'01"
+              min="2022-01-01" max="2999-12-31">
+          </div>
+         
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+          <button (click)="guardaUsuario()" type="button" class="btn btn-primary">Guardar Usuario</button>
+        </div>
+      </div>
+    </div>
+  </div>
